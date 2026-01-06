@@ -1,6 +1,9 @@
 name = "deploy-exp-app"
-compatibility_date = "2024-09-23"
+compatibility_date = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
 
 [vars]
 # Add environment variables here if needed
